@@ -1,30 +1,20 @@
-<h1 align="center">🚀 Profile Management System (Backend)</h1>
+# 💼 Profile Management System (Backend)
 
-<p align="center">
-REST API Backend for managing user profiles using Node.js, Express and MongoDB
-</p>
-
----
-
-## 🛠 Tech Stack
-- 🟢 Node.js
-- ⚡ Express.js
-- 🍃 MongoDB
-- 📦 Mongoose
-
----
+## 🛠 Tech Used
+- Node.js
+- Express.js
+- MongoDB
 
 ## ✨ Features
-- ➕ Create Profile  
-- ✏️ Update Profile  
-- ❌ Delete Profile  
-- 📋 Get All Profiles  
-- 🔍 Get Single Profile  
+- Create Profile
+- Update Profile
+- Delete Profile
+- Get All Profiles
 
----
+## ⚙️ How to Run
 
-## ⚙️ How to Run Locally
-
-### 1️⃣ Install dependencies
-```bash
+### 1️⃣ Install Dependencies
 npm install
+
+### 2️⃣ Start Server
+node server.js
