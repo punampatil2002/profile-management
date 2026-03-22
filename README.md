@@ -1,9 +1,5 @@
 # 💼 Profile Management Backend
 
----
-
-## ⚙️ Setup & Run
-
 ### 1️⃣ Install dependencies
 
 ```bash
