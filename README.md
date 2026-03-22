@@ -1,75 +1,35 @@
-# 💼 Profile Management System (Backend)
+# 💼 Profile Management Backend
 
-A simple REST API backend for managing user profiles.
-
----
-
-## 🛠 Tech Stack
-
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* dotenv
-* cors
+Minimal setup to run the project locally.
 
 ---
 
-## ✨ Features
+## ⚙️ Setup & Run
 
-* ➕ Create Profile
-* 📄 Get All Profiles
-* 🧪 Test Route (Insert Sample Data)
-
----
-
-## 📁 Project Structure
-
-```
-controllers/
-models/
-routes/
-server.js
-package.json
-```
-
----
-
-## ⚙️ How To Run Locally
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone <your-repo-url>
-cd <project-folder>
-```
-
-### 2️⃣ Install Dependencies
+### 1️⃣ Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Create .env File
-
-Create a `.env` file in the root folder and add:
+### 2️⃣ Create `.env` file
 
 ```
 MONGO_URI=mongodb://127.0.0.1:27017/profiledb
 PORT=5000
 ```
 
-### 4️⃣ Start MongoDB
+### 3️⃣ Start MongoDB
 
 Make sure MongoDB service is running.
 
-### 5️⃣ Start Server
+### 4️⃣ Start server
 
 ```bash
 node server.js
 ```
 
-Server will run at:
+Server URL:
 
 ```
 http://localhost:5000
@@ -77,82 +37,26 @@ http://localhost:5000
 
 ---
 
-## 🌐 API Endpoints (Localhost)
+## 🌐 Main APIs (Localhost)
 
-### 📄 Get All Profiles
-
-**Method:** GET
-**URL:**
+### Get All Profiles
 
 ```
-http://localhost:5000/api/profile/all
+GET http://localhost:5000/api/profile/all
 ```
 
-**Response:**
+### Insert Sample Profile
 
-```json
-[
-  {
-    "_id": "id",
-    "name": "Punam",
-    "email": "punam@gmail.com"
-  }
-]
+```
+GET http://localhost:5000/api/profile/test
 ```
 
 ---
 
-### ➕ Create Profile
-
-**Method:** POST
-**URL:**
-
-```
-http://localhost:5000/api/profile/create
-```
-
-**Body (JSON):**
-
-```json
-{
-  "name": "Rahul",
-  "email": "rahul@gmail.com",
-  "skills": "React, Node",
-  "experience": "2 years"
-}
-```
-
----
-
-### 🧪 Test Route (Insert Sample Profile)
-
-**Method:** GET
-**URL:**
-
-```
-http://localhost:5000/api/profile/test
-```
-
-**Description:** Inserts a sample profile into the database.
-
----
-
-## ✅ Sample Success Messages
-
-Server start:
+## ✅ Success Output
 
 ```
 MongoDB Connected
 Server running on port 5000
 ```
-
----
-
-## 🧪 API Testing Tools
-
-You can test APIs using:
-
-* Postman
-* Thunder Client (VS Code Extension)
-* Browser (for GET requests)
 
