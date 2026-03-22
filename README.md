@@ -1,7 +1,5 @@
 # 💼 Profile Management Backend
 
-Minimal setup to run the project locally.
-
 ---
 
 ## ⚙️ Setup & Run
