@@ -12,6 +12,31 @@ Minimal setup to run the project locally.
 npm install
 ```
 
+📁 Project Structure
+```
+profile-backend/
+├── server.js               # Express server entry point
+├── package.json            # Project dependencies & scripts
+├── .env                    # Environment variables (Mongo URI, PORT)
+├── models/
+│   └── Profile.js          # Profile schema
+├── routes/
+│   └── profile.js          # Profile-related routes
+└── config/
+    └── db.js               # MongoDB connection setup
+```
+
+✅ Features 
+```
+MongoDB connection setup
+Express server setup
+Profile schema (name, email, role)
+API to get all profiles (GET /api/profile/all)
+API to insert a sample profile (GET /api/profile/test)
+Minimal error handling
+Easy local development setup
+```
+
 ### 2️⃣ Create `.env` file
 
 ```
