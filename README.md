@@ -1,6 +1,6 @@
 # 💼 Profile Management Backend
 
-Simple backend using **Node.js + Express + MongoDB** for managing user profiles.
+A simple backend project built with **Node.js, Express, and MongoDB** to manage user profiles.
 
 ---
 
@@ -8,7 +8,7 @@ Simple backend using **Node.js + Express + MongoDB** for managing user profiles.
 
 ### 1️⃣ Install Dependencies
 
-Project folder ke andar jaake:
+Navigate to the project folder and run:
 
 ```bash
 npm install
@@ -35,7 +35,7 @@ profile-backend/
 
 ### 3️⃣ Create Environment File
 
-Root folder me `.env` file banao:
+Create a `.env` file in the root folder:
 
 ```
 MONGO_URI=mongodb://127.0.0.1:27017/profiledb
@@ -46,7 +46,7 @@ PORT=5000
 
 ### 4️⃣ Start MongoDB
 
-Make sure MongoDB service running hai.
+Make sure the MongoDB service is running on your system.
 
 ---
 
@@ -58,9 +58,9 @@ node server.js
 
 ---
 
-### 6️⃣ Verify Server Running
+### 6️⃣ Verify Server is Running
 
-Browser me open karo:
+Open the browser and visit:
 
 ```
 http://localhost:5000
@@ -68,7 +68,7 @@ http://localhost:5000
 
 ---
 
-### 7️⃣ Test APIs (Browser ya Postman)
+### 7️⃣ Test APIs (Browser or Postman)
 
 #### 📄 Get All Profiles
 
@@ -87,9 +87,9 @@ GET http://localhost:5000/api/profile/test
 ## ✨ Features
 
 * MongoDB connection setup
-* Express server setup
+* Express server configuration
 * Profile schema (name, email, role)
-* API to get all profiles
+* API to fetch all profiles
 * API to insert a sample profile
 * Minimal error handling
 * Easy local development setup
@@ -100,6 +100,6 @@ GET http://localhost:5000/api/profile/test
 
 ```
 MongoDB Connected
-Server running on port 5000
+S
 ```
 
